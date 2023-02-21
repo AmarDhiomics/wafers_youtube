@@ -1,8 +1,12 @@
 wafers1_main
 ==============================
+pip insatll cookiecutter
 cookiecutter <'github link to start the project'>
-
-
+Extract and paste the downloaded files
+ad files to dvc
+pip install dvc[gdrive]
+dvc remote add -g storage gdrive://<gdrive folder link>
+git add .dvc/config && git comitt -m "Configure remote storage"
 
 wafer project using mlops
 
